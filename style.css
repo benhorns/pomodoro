@@ -12,23 +12,28 @@ html, body {
   .top-row {
     order: 1;
     display:inline-block;
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
-    flex: inherit;
+    width: 500px;
+  }
+
+  .top-row button {
+    font-size: 15px;
   }
 
   .work-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 225px;
   }
 
   .break-container {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-
+    width: 225px;
   }
   .timer{
     order: 2;
@@ -40,4 +45,13 @@ html, body {
 
   #timer-buttons {
     display: flex;
-    justify-content: space-between;  }
+    justify-content: space-between;  
+    }
+
+button {
+font-family: Arial, sans-serif
+}
+
+.timer button {
+  font-size: 15px;
+}
