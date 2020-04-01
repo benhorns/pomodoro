@@ -1,7 +1,43 @@
-p {
-  font-size: 100px;
-  float: center;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
+html, body {
+  font-family: Arial, sans-serif;}
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .top-row {
+    order: 1;
+    display:inline-block;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex: inherit;
+  }
+
+  .work-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .break-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  .timer{
+    order: 2;
+  }
+
+  #demo {
+    font-size: 200px;
+  }
+
+  #timer-buttons {
+    display: flex;
+    justify-content: space-between;  }

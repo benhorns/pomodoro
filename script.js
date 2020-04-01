@@ -133,7 +133,7 @@ const changeAmountOfTime = (choice) => {
   } else if (choice === "moreBreak" && breakTime < 3540) {
     document.getElementById("break").innerHTML = formatTime(breakTime+=60);
     if (timerMode === "break") {
-      document.getElementById("demo").innerHTML = formatTime(timeRemaining+s=60);
+      document.getElementById("demo").innerHTML = formatTime(timeRemaining+=60);
     }
   } else if (choice === "lessBreak" && breakTime > 0) {
     document.getElementById("break").innerHTML = formatTime((breakTime-=60));
